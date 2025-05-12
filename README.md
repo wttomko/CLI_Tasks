@@ -17,7 +17,7 @@ This project is a **Command-Line Interface (CLI) Task Manager** written in C++ u
   - **[5] Clear All Tasks**: Delete all tasks from the list.
   - **[6] Exit**: Exit the program.
 
-  **Options 2, 3, and 4 all require exactly 2 inputs from the user: The number 2,3,4 -followed by the number of the task you wish to change/remove**
+  **Options 2, 3, and 4 all require exactly 2 inputs from the user: The number 2,3, or 4 -followed by the number of the task you wish to change/remove**
 
 ### 3. **User Input**
 - The program waits for the user to input a choice.
@@ -30,7 +30,7 @@ This project is a **Command-Line Interface (CLI) Task Manager** written in C++ u
 - **Clear All Tasks**: Resets the `Tasks.json` file to an empty array.
 
 ### 5. **Task Display**
-- The program uses the `printTasks()` function to display all tasks in the `Tasks.json` file.
+- The program uses the `printTasks()` function to display all tasks in the `Tasks.json` file. This is automaticlly displayed as part of the main menu.
   - Completed tasks are shown in **blue**.
   - Incomplete tasks are shown in **red**.
 

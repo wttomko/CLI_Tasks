@@ -129,7 +129,7 @@ int main() {
         cout << "[3] [TASK NUMBER] Mark Task as Completed" << endl;
         cout << "[4] [TASK NUMBER] Mark Task as Incomplete" << endl;
         cout << "[5] Clear all Tasks" << endl;
-        cout << "[6] Exit" << endl;
+        cout << "[9] Exit" << endl;
         cout << "==================================" << endl;
         cin >> choice;
         cin.ignore(); // Clear the newline character from the input buffer
@@ -213,9 +213,10 @@ int main() {
                 outFile << "[]";
                 break;
             }
-            case '6':
-            case 'Q':
-            case 'q':
+            case '9': {
+                cout << "Exiting..." << endl;
+                return 0;
+            }
             default:
                 break; // Exit the loop
         }
