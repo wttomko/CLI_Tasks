@@ -1,5 +1,7 @@
 # Simple Task Manager
 
+[Project Repository](https://github.com/tomko/CLI_Tasks)
+
 This project is a **Command-Line Interface (CLI) Task Manager** written in C++ using the [nlohmann/json](https://github.com/nlohmann/json) library for handling JSON data. The program allows users to manage tasks stored in a `Tasks.json` file.
 
 ## How it Works
@@ -23,7 +25,7 @@ This project is a **Command-Line Interface (CLI) Task Manager** written in C++ u
 - The program waits for the user to input a choice.
 - Based on the input, it performs the corresponding action.
 
-### 4. **Task Management**
+### 4. **Task Manaaddgement**
 - **Add Task**: Prompts the user for a task description, creates a new `Task` object, and appends it to the `Tasks.json` file.
 - **Remove Task**: Deletes a task by its ID and reassigns IDs to remaining tasks.
 - **Mark Task as Completed/Incomplete**: Updates the `isCompleted` status of a task in the `Tasks.json` file.
