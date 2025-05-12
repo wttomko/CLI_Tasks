@@ -1,6 +1,7 @@
 # Simple Task Manager
 
 [Project Repository](https://github.com/wttomko/CLI_Tasks.git)
+[Roadmap] (https://roadmap.sh/projects/task-tracker)
 
 This project is a **Command-Line Interface (CLI) Task Manager** written in C++ using the [nlohmann/json](https://github.com/nlohmann/json) library for handling JSON data. The program allows users to manage tasks stored in a `Tasks.json` file.
 
